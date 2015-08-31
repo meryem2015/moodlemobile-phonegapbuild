@@ -4288,7 +4288,7 @@ angular.module('mm.core.login', [])
         templateUrl: 'core/components/login/templates/site.html',
         controller: 'mmLoginSiteCtrl',
         onEnter: function($state) {
-$state.go('mm_login.credentials', {siteurl: 'http:/ecampus.itcilo.org'});  // (here is my institution Moodle URL)
+$state.go('mm_login.credentials', {siteurl: 'http://ecampus.itcilo.org'});  // (here is my institution Moodle URL)
 } 
     })
     .state('mm_login.credentials', {
